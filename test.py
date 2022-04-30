@@ -23,7 +23,6 @@ class TestSum(unittest.TestCase):
     def test_expression_3(self):
         self.assertEqual(evaluate('5 9 1 - /', True), 0.625, 'Expected: 0.625')
 
-
     def test_errorcase_divbyzero(self):
         self.assertEqual(evaluate('5 0 / ', True), 'Zero Division Error', 'Expected: - Zero Division Error')
 

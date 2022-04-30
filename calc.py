@@ -30,7 +30,7 @@ def evaluate(input_str, startover):
     except EOFError:
         raise EOFError            
     except ZeroDivisionError:
-        return 'Zero division Error'
+        return 'ZerodivisionError'
     except:                  
         return 'Please type in valid number or supported operator (' + str(list(operations.keys())) + ')'                  
 
